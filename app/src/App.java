@@ -34,7 +34,7 @@ public class App {
                     System.out.println(i + ": " + words_map.get(i));
                 }
                 Map<String, Integer> words_map2= new TreeMap<>(words_map);
-                System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+                System.out.println("\t\t\tAlphabetic Sorting");
                 for (String i : words_map2.keySet()) {
                     System.out.println(i + ": " + words_map2.get(i));
                 }
